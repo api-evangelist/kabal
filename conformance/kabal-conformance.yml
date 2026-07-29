@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://kabal.com/company/#it-security
+standards:
+  - id: iso-27001-2022
+    name: ISO/IEC 27001:2022
+    conforms: true
+    evidence: >-
+      Kabal's Information Security Management System is certified with ISO/IEC
+      27001:2022, published on the company IT security page.
+    source: https://kabal.com/company/#it-security
+notes: >-
+  Kabal additionally states it only engages SOC 2-compliant hosting providers;
+  that SOC 2 attestation applies to the hosting providers, not to Kabal itself,
+  so it is not asserted as a Kabal certification here. No public OpenAPI or API
+  security schemes are published, so cross-cutting API standards (oauth2, oidc,
+  rfc9457, etc.) could not be derived.

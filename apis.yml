@@ -1,7 +1,29 @@
 aid: kabal
 name: Kabal
-description: Kabal is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kabal is the energy industry's leading logistics management SaaS platform.
+  Founded in Norway in 2011 (formerly Wellit), Kabal provides an integrated,
+  cloud-native platform that manages cargo, marine, transport, personnel,
+  warehouse, rig and installation logistics across both offshore and onshore
+  operations for oil & gas operators. The platform spans planning, execution and
+  optimization, plus cost and emissions tracking and KPI reporting, connecting
+  operators with their suppliers and vessels to share business-critical logistics
+  data. Kabal is trusted by energy supermajors including ExxonMobil, Shell,
+  Chevron, BP, TotalEnergies, Equinor, Petronas, Repsol, Eni and ADNOC, with tens
+  of thousands of users across dozens of countries. Kabal received a growth
+  investment from Insight Partners in 2023.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kabal.com/wp-content/uploads/2022/11/favicon.svg
 url: https://raw.githubusercontent.com/api-evangelist/kabal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Oil and Gas
+- Logistics
+- Supply Chain
+- Maritime
+- SaaS
+- Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://kabal.com/
+- type: Login
+  url: https://login.kabal.com/
+- type: Blog
+  url: https://kabal.com/stories/
+- type: Support
+  url: https://kabal.com/contact/
+- type: PrivacyPolicy
+  url: https://kabal.com/privacy-policy/
+- type: Compliance
+  url: https://kabal.com/company/#it-security
+- type: Conformance
+  url: conformance/kabal-conformance.yml
+- type: DomainSecurity
+  url: security/kabal-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
