@@ -12,6 +12,17 @@ description: >-
   Chevron, BP, TotalEnergies, Equinor, Petronas, Repsol, Eni and ADNOC, with tens
   of thousands of users across dozens of countries. Kabal received a growth
   investment from Insight Partners in 2023.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
